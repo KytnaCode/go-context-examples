@@ -21,13 +21,26 @@ git clone https://github.com/KytnaCode/go-context-examples.git
 cd go-context-examples
 ```
 ### Run the examples from Linux/macOS
-Just run the following command:
+Run the following command to run all the examples:
 ```bash
 chmod +x ./scripts/run.sh
 ./scripts/run.sh
 ```
 
+for get help run:
+```bash
+./scripts/run.sh -h
+```
+
 > Note: If you only want to run a specific example, you can run the following command:
+>
+> for get examples list run:
+> ```bash
+> ./scripts/run.sh -l
+> ```
+> 
+> then run:
+> 
 > ```bash
 > ./scripts/run.sh <example>
 > ```
